@@ -1,3 +1,3 @@
-# Acerte-os-estados-do-Brasil
-#aviso, esqueceu de fehcar no github da escola!!!
-#att: erick professor
+npm install express sqlite3 dotenv
+npm install -D nodemon
+npm install cors
