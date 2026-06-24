@@ -1,0 +1,5 @@
+jogo: acerte o estado
+
+fazer um pop up com as regras do jogo "ex pop up.png"
+
+

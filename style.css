@@ -1,0 +1,102 @@
+body {
+    background-color: #f7dac7;
+}
+
+.containerTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.retangulotitulo {
+    background-color: #c09563;
+    text-align: center;
+    box-shadow: 0px 5px 20px #96744d;
+    font-family: Arial, sans-serif;
+    padding: 1mm;
+    border-radius: 15px;
+}
+
+.popup {
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #96744d;
+    -webkit-text-fill-color: #96744d;
+    background-color: #f7dac7;
+    width: 40px;
+    margin-top: 50px;
+}
+
+.popup .popuptexto {
+    visibility: hidden;
+  width: 350px;
+  background-color: #284657;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 150px;
+  position: absolute;
+  z-index: 1;
+  bottom: -1300%;
+  left: -300%;
+  margin: absolute;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.regras {
+
+
+    display: flex;
+    margin-top: 55%;
+    width: 15px;
+    height: 20px;
+    justify-content: center;
+    opacity: 0%;
+
+
+
+}
+path {
+    fill: #c09563;
+    stroke: #000000;
+    stroke-width: 1;
+    transition: fill 0.3s;;
+}
+
+.acertou {
+    fill: #488652 !important;
+}
+
+.botaoEnviar {
+    visibility: visible;
+}
+
+.Salvar {
+    display: flex;
+    margin-left: 1600px;
+}
+.botaoSalvar {
+    display: flex;
+    margin-left: 1777px;
+    margin-top: -21px;
+}
